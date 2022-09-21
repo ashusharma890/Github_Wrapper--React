@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a dynamic website which allows user to fetchthe profile info  data of  Github profiles as per user's will.
+This is a dynamic website which allows user to fetch the profile info  data of  Github profiles as per user's will.
 
 Built using ReactJs with Github's API applied.
 
