@@ -6,7 +6,7 @@ const App = () => {
 
     const [userName, setUserName] = useState('');
     const [resData, setResData] = useState('');
-    const [repoData, setRepoData] = useState('');
+    const [repoData, setRepoData] = useState([]);
 
     const handleUserNameInput = (e) => {
         setUserName(e.target.value);
@@ -63,7 +63,7 @@ const App = () => {
                   <div className='repos'>
                   {/* {Array.isArray(repoData) ? (repoData).map(e => <p><li>{e.name}</li></p>) : null} */}
       
-    {repoData.map(
+    {repoData?.map(
         (e) => 
             <a href={e.html_url} className='repo' target='_blank' >
               {e.name}
